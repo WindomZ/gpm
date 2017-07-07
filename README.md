@@ -1,4 +1,4 @@
-# gpm.js 
+# gpm.js
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/gpmer/gpm.js.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/gpmer/gpm.js.svg?branch=master)](https://travis-ci.org/gpmer/gpm.js)
@@ -84,7 +84,7 @@ $ gpm --help
 
 ### Config
 
-this is a default config, it will be generated in ``~/.gpm`` by default
+This is a default config, it will be generated in ``~/.gpm`` by default
 
 **~/.gpm/gpm.config.json**
 
@@ -96,17 +96,15 @@ this is a default config, it will be generated in ``~/.gpm`` by default
 }
 ```
 
-- name: user name
-- base: the repositories base dir, all repository will be install in this dir
-- checkUpgrade: check upgrade before run every command
+- `name`: user name
+- `base`: the repositories base dir, all repository will be install in this dir
+- `checkUpgrade`: check upgrade before run every command
 
 ### Plugin
 
-load plugin with option ``'-p, --plugin name'``
-
-only support ``gpm add```, more hooks are coming soon.
-
-plugin's name should match this pattern: ``gpm-plugin-${name}``
+- load plugin with option ``'-p, --plugin name'``
+- only support ``gpm add``, more hooks are coming soon.
+- plugin's name should match this pattern: ``gpm-plugin-${name}``
 
 ```bash
 npm install gpm-plugin-npmi -g
@@ -124,7 +122,7 @@ name | description
 
 ## Structure
 
-```bash
+```
 .
 ├── github.com
 │   ├── axetroy
